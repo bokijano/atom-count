@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="molecularStructure.css" />
+    <title>Molecular structure</title>
+  </head>
+  <body>
+    <h1 style="text-align: center">EXAMPLES</h1>
+    <div class="example">
+      <h3 class="exampleHead"><span>Input:</span> [C2H5]2NH</h3>
+      <h3>
+        <span>Output: </span>
+        <div id="exampleOne"></div>
+      </h3>
+    </div>
+    <div class="example">
+      <h3 class="exampleHead"><span>Input:</span> Al2(SO4)3</h3>
+      <h3>
+        <span>Output: </span>
+        <div id="exampleTwo"></div>
+      </h3>
+    </div>
+    <div class="example">
+      <h3 class="exampleHead">
+        <span>Input:</span> Ge2{W5C5[MgH6(CO2)3]2}4Os5
+      </h3>
+      <h3>
+        <span>Output: </span>
+        <div id="exampleThree"></div>
+      </h3>
+    </div>
+
+    <h1 style="text-align: center; margin-top: 200px">
+      TRY IT WITH YOUR FORMULA
+    </h1>
+    <div class="yourExample">
+      <h3>Enter formula:</h3>
+      <input id="formula" type="text" />
+      <input
+        onClick="displayStructure()"
+        class="btn-submit"
+        type="submit"
+        value="Count atoms"
+      />
+      <h3 class="exampleHead">
+        <span>Input: </span><span id="formulaDisplay"></span>
+      </h3>
+      <h3>
+        <span>Output: </span>
+        <div id="yourExample"></div>
+      </h3>
+    </div>
+
+    <script src="molecularStructure.js"></script>
+  </body>
+</html>

@@ -1,0 +1,38 @@
+.example {
+  width: 30%;
+  margin: 1%;
+  float: left;
+  border: 1px solid #333;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.yourExample {
+  width: 50%;
+  margin: auto;
+  border: 1px solid #333;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+}
+
+#exampleOne,
+#exampleTwo,
+#exampleThree,
+#yourExample {
+  background: lightgrey;
+}
+
+.btn-submit {
+    width: 50px;
+    cursor: pointer;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background: lightgray;
+    text-align: center;
+    font-weight: bolder;
+}
+
+#formulaDisply {
+    text-transform: uppercase;
+}
